@@ -5,7 +5,7 @@
 | #   | Problem                  | Status | Confidence |
 | --- | ------------------------ | ------ | ---------- |
 | 01  | Array.prototype.map      | ✅     | ⭐⭐⭐⭐☆  |
-| 02  | Array.prototype.filter   | ⬜     |            |
+| 02  | Array.prototype.filter   | ✅     | ⭐⭐⭐⭐☆  |
 | 03  | Array.prototype.reduce   | ⬜     |            |
 | 04  | Array.prototype.forEach  | ⬜     |            |
 | 05  | Array.prototype.find     | ⬜     |            |
@@ -149,6 +149,6 @@
 ## Overall Progress
 
 - Total Problems: **83**
-- Completed: **1 / 83**
+- Completed: **2 / 83**
 - Current Phase: **Phase 1 – Polyfills**
 - Current Problem: **02 – Array.prototype.filter**

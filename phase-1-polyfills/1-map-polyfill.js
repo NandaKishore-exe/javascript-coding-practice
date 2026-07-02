@@ -46,11 +46,10 @@ function callback(num) {
 }
 
 Array.prototype.myMap = function (callback) {
-  let resultArr = [];
-
   if (typeof callback !== "function") {
     throw new TypeError(`${callback} is not a function`);
   }
+  let resultArr = [];
 
   for (let i = 0; i < this.length; i++) {
     resultArr.push(callback(this[i], i, this));
