@@ -6,9 +6,9 @@
 | --- | ------------------------ | ------ | ---------- |
 | 01  | Array.prototype.map      | ✅     | ⭐⭐⭐⭐☆  |
 | 02  | Array.prototype.filter   | ✅     | ⭐⭐⭐⭐☆  |
-| 03  | Array.prototype.reduce   | ⬜     |            |
-| 04  | Array.prototype.forEach  | ⬜     |            |
-| 05  | Array.prototype.find     | ⬜     |            |
+| 03  | Array.prototype.reduce   | ✅     | ⭐⭐⭐⭐☆  |
+| 04  | Array.prototype.forEach  | ✅     | ⭐⭐⭐⭐☆  |
+| 05  | Array.prototype.find     | ✅     | ⭐⭐⭐⭐☆  |
 | 06  | Array.prototype.every    | ⬜     |            |
 | 07  | Array.prototype.some     | ⬜     |            |
 | 08  | Function.prototype.call  | ⬜     |            |
@@ -149,6 +149,6 @@
 ## Overall Progress
 
 - Total Problems: **83**
-- Completed: **2 / 83**
+- Completed: **5 / 83**
 - Current Phase: **Phase 1 – Polyfills**
 - Current Problem: **02 – Array.prototype.filter**
