@@ -9,8 +9,8 @@
 | 03  | Array.prototype.reduce   | ✅     | ⭐⭐⭐⭐☆  |
 | 04  | Array.prototype.forEach  | ✅     | ⭐⭐⭐⭐☆  |
 | 05  | Array.prototype.find     | ✅     | ⭐⭐⭐⭐☆  |
-| 06  | Array.prototype.every    | ⬜     |            |
-| 07  | Array.prototype.some     | ⬜     |            |
+| 06  | Array.prototype.every    | ✅     | ⭐⭐⭐⭐☆  |
+| 07  | Array.prototype.some     | ✅     | ⭐⭐⭐⭐☆  |
 | 08  | Function.prototype.call  | ⬜     |            |
 | 09  | Function.prototype.apply | ⬜     |            |
 | 10  | Function.prototype.bind  | ⬜     |            |

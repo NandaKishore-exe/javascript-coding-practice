@@ -1,3 +1,45 @@
+/*
+=========================================================
+Problem #03 - Array.prototype.reduce() Polyfill
+Phase   : Polyfills
+Status  : ✅ Completed
+Pattern : Accumulator
+
+Prerequisites
+--------------
+✓ Prototype methods
+✓ this
+✓ Callback Functions
+✓ Initial Value
+
+Approach
+---------
+1. Validate callback.
+2. Check if initialValue is provided.
+3. Initialize accumulator.
+4. Loop through `this`.
+5. Update accumulator using callback.
+6. Return final accumulator.
+
+Complexity
+----------
+Time  : O(n)
+Space : O(1)
+
+Key Learnings
+-------------
+✓ Accumulator carries the result across iterations.
+✓ Accumulator can be Number, String, Array, Object, etc.
+✓ Check if initialValue is provided, not if it's truthy.
+✓ Return the final accumulator.
+
+Follow-ups
+-----------
+□ Handle empty array without initialValue.
+□ Why use arguments.length instead of truthy check?
+=========================================================
+*/
+
 const arr = [1, 2, 3, 4, 5, 6];
 
 function getSum(acc, cur) {
